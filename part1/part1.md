@@ -56,6 +56,62 @@ E. student.courseLoad[0]
 
 Basic Operators & Type Conversion
 
+14. Arithmetic
+
+A. 32        As we add a number to a character, the program convert number 2 from to string and them put them together.
+B.  1        As we subtract a number from a character, the symbol"-" make the character 3 to convert into a number and then we subtract 2 from the number.
+C.  3        null could be converted to 0 and number 3 +0 =3
+D.  3null    null is an string and two strings concatenate together is 3null.
+E.  4        true could be converted to 1 and 3+1 is 4.
+F.  0        false could be converted to 0 and null can be converted to 0.
+G.  3undefined  As we add a number to a string, we convert undefined to a string and concatenate them together. So the reult is 3undefined.
+H.  NaN        As we subtract "undefined" from a a string, the symbol"-" numerically converts the string 3 into a number but undefined is NaN and the subtraction results in NaN.
+
+
+15. Comparison
+A.true           JavaScript converts the values to numbers and 2>1.
+B.false          JavaScript compares strings letter by letter, '2' in lexicographical order is smaller than '12'.      ???????
+C.true           JavaScript converts the char value to number and 2=2.
+D.false          JavaScript converts the char value to number an their value are the same but they are different type.
+E.false          true can be numerically converted to 1 and it is not equal to 2
+F.true           Boolean(2) returns true and true equals to true in value and type.
+
+
+16. Explain the difference between the == and === operators.
+
+=== oeprator determine whether variables or values on two sides are euqal in value and equal in type. However, == operator only tell 
+whether variables or values on two sides are equal in value.
+
+
+
+17.
+It prints "How are you ?". That is because in the first if condition "2 == true",  true is converted numerically to the type on the left side and then to 1. 2 is not equal to 1. 
+
+
+18.Loops
+
+
+
+Functions
+
+19.[6, 8, 10] 
+
+In the modifyArray function and in the for loop, we iterate through each element of the input array. Before pushing each one into a new array, we first pass each element nad  the function(x) into function 'doSomething'. This function 'doSomething' add each input number to two and return the value to function(x). Then the value is multiplied by 2.
+Next, the element is pushed into the new Array. Finally we return the new Array.
+
+
+20.
+
+
+
+
+
+
+
+
+
+
+Conditionals
 
 
 
