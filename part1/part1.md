@@ -102,10 +102,6 @@ Next, the element is pushed into the new Array. Finally we return the new Array.
 
 20.
 
-
-
-
-
 21.
 
 the out of this code is : 
