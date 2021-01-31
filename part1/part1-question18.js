@@ -6,6 +6,7 @@ let statistics = {
     raceCars:12,
     blackCars:40,
     rareCars:2
+    
     };
     
     
