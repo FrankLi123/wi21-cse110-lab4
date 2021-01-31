@@ -47,34 +47,34 @@ Variable "discountedPrice" updates its value with the for-loop and 150 is the ca
 Data Types
 13.
 
-A. student.name
-B. student['Grad Year']
-C. student.greeting()
-D. student['Favorite Teacher'].name
-E. student.courseLoad[0]
+A. student.name  <br/>
+B. student['Grad Year']<br/>
+C. student.greeting()<br/>
+D. student['Favorite Teacher'].name <br/>
+E. student.courseLoad[0]<br/>
 
 
 Basic Operators & Type Conversion
 
 14. Arithmetic
 
-A. 32        As we add a number to a character, the program convert number 2 from to string and them put them together.
-B.  1        As we subtract a number from a character, the symbol"-" make the character 3 to convert into a number and then we subtract 2 from the number.
-C.  3        null could be converted to 0 and number 3 +0 =3
-D.  3null    null is an string and two strings concatenate together is 3null.
-E.  4        true could be converted to 1 and 3+1 is 4.
-F.  0        false could be converted to 0 and null can be converted to 0.
-G.  3undefined  As we add a number to a string, we convert undefined to a string and concatenate them together. So the reult is 3undefined.
-H.  NaN        As we subtract "undefined" from a a string, the symbol"-" numerically converts the string 3 into a number but undefined is NaN and the subtraction results in NaN.
+A. 32        As we add a number to a character, the program convert number 2 from to string and them put them together. <br/>
+B.  1        As we subtract a number from a character, the symbol"-" make the character 3 to convert into a number and then we subtract 2 from the number.<br/>
+C.  3        null could be converted to 0 and number 3 +0 =3<br/>
+D.  3null    null is an string and two strings concatenate together is 3null.<br/>
+E.  4        true could be converted to 1 and 3+1 is 4.<br/>
+F.  0        false could be converted to 0 and null can be converted to 0.<br/>
+G.  3undefined  As we add a number to a string, we convert undefined to a string and concatenate them together. So the reult is 3undefined.<br/>
+H.  NaN        As we subtract "undefined" from a a string, the symbol"-" numerically converts the string 3 into a number but undefined is NaN and the subtraction results in NaN.<br/>
 
 
 15. Comparison
-A.true           JavaScript converts the values to numbers and 2>1.
-B.false          JavaScript compares strings letter by letter, '2' in lexicographical order is smaller than '12'.      ???????
-C.true           JavaScript converts the char value to number and 2=2.
-D.false          JavaScript converts the char value to number an their value are the same but they are different type.
-E.false          true can be numerically converted to 1 and it is not equal to 2
-F.true           Boolean(2) returns true and true equals to true in value and type.
+A.true           JavaScript converts the values to numbers and 2>1.<br/>
+B.false          JavaScript compares strings letter by letter, '2' in lexicographical order is smaller than '12'.     <br/>
+C.true           JavaScript converts the char value to number and 2=2.<br/>
+D.false          JavaScript converts the char value to number an their value are the same but they are different type.<br/>
+E.false          true can be numerically converted to 1 and it is not equal to 2<br/>
+F.true           Boolean(2) returns true and true equals to true in value and type.<br/>
 
 
 16. Explain the difference between the == and === operators.
